@@ -35,15 +35,18 @@
   },
   "name":"clt-simulator",
   "resources":[
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
-    {"id":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
-    {"id":{"name":"Sprite1","path":"sprites/Sprite1/Sprite1.yy",},},
+    {"id":{"name":"Obj_player1","path":"objects/Obj_player1/Obj_player1.yy",},},
+    {"id":{"name":"casa","path":"rooms/casa/casa.yy",},},
+    {"id":{"name":"cutscene","path":"rooms/cutscene/cutscene.yy",},},
+    {"id":{"name":"menu","path":"rooms/menu/menu.yy",},},
+    {"id":{"name":"spr1","path":"sprites/spr1/spr1.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
-    {"roomId":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
+    {"roomId":{"name":"menu","path":"rooms/menu/menu.yy",},},
+    {"roomId":{"name":"cutscene","path":"rooms/cutscene/cutscene.yy",},},
+    {"roomId":{"name":"casa","path":"rooms/casa/casa.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
