@@ -36,7 +36,7 @@
   "name":"clt-simulator",
   "resources":[
     {"id":{"name":"obj_house","path":"objects/obj_house/obj_house.yy",},},
-    {"id":{"name":"Obj_parede","path":"objects/Obj_parede/Obj_parede.yy",},},
+    {"id":{"name":"obj_parede","path":"objects/obj_parede/obj_parede.yy",},},
     {"id":{"name":"Obj_player1","path":"objects/Obj_player1/Obj_player1.yy",},},
     {"id":{"name":"casa","path":"rooms/casa/casa.yy",},},
     {"id":{"name":"cutscene","path":"rooms/cutscene/cutscene.yy",},},
@@ -48,9 +48,9 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
+    {"roomId":{"name":"casa","path":"rooms/casa/casa.yy",},},
     {"roomId":{"name":"menu","path":"rooms/menu/menu.yy",},},
     {"roomId":{"name":"cutscene","path":"rooms/cutscene/cutscene.yy",},},
-    {"roomId":{"name":"casa","path":"rooms/casa/casa.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

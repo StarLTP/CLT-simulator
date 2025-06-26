@@ -18,10 +18,10 @@
   ],
   "ResourceOrderSettings":[
     {"name":"obj_house","order":1,"path":"objects/obj_house/obj_house.yy",},
-    {"name":"Obj_parede","order":2,"path":"objects/Obj_parede/Obj_parede.yy",},
+    {"name":"obj_parede","order":2,"path":"objects/obj_parede/obj_parede.yy",},
     {"name":"casa","order":2,"path":"rooms/casa/casa.yy",},
     {"name":"cutscene","order":1,"path":"rooms/cutscene/cutscene.yy",},
     {"name":"Sprite2","order":1,"path":"sprites/Sprite2/Sprite2.yy",},
-    {"name":"Sprite3","order":3,"path":"sprites/Sprite3/Sprite3.yy",},
+    {"name":"Sprite3","order":2,"path":"sprites/Sprite3/Sprite3.yy",},
   ],
 }
