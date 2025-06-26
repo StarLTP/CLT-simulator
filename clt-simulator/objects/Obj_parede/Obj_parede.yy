@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"Obj_player1",
+  "%Name":"Obj_parede",
   "eventList":[],
   "managed":true,
-  "name":"Obj_player1",
+  "name":"Obj_parede",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -26,10 +26,10 @@
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":true,
+  "solid":false,
   "spriteId":{
-    "name":"spr1",
-    "path":"sprites/spr1/spr1.yy",
+    "name":"Sprite3",
+    "path":"sprites/Sprite3/Sprite3.yy",
   },
   "spriteMaskId":null,
   "visible":true,
