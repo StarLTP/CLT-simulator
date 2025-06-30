@@ -1,46 +1,93 @@
 
-var x_input = 0; // Armazena a entrada horizontal do teclado
-var y_input = 0; // Armazena a entrada vertical do teclado
+var x_input = 0;
+var y_input = 0;
+
+// Obter Entradas do Teclado
+
+// Avalia a entrada horizontal (A e D)
+// Se 'A' é pressionado, subtrai 1. Se 'D' é pressionado, soma 1.
+// Se ambos são pressionados, o resultado é 0 (-1 + 1 = 0), mantendo o personagem parado.
+if (keyboard_check(ord("A"))) {
+    x_input -= 1;
+}
+if (keyboard_check(ord("D"))) {
+    x_input += 1;
+}
+
+// Avalia a entrada vertical (W e S)
+// Se 'W' é pressionado, subtrai 1. Se 'S' é pressionado, soma 1.
+// Se ambos são pressionados, o resultado é 0 (-1 + 1 = 0), mantendo o personagem parado.
+if (keyboard_check(ord("W"))) {
+    y_input -= 1;
+}
+if (keyboard_check(ord("S"))) {
+    y_input += 1;
+}
 
 
-// Calcula a entrada horizontal
-if (keyboard_check(ord("A"))) x_input -= 1;
-if (keyboard_check(ord("D"))) x_input += 1;
+// Lógica de Animação e Direção do Sprite 
 
-// Calcula a entrada vertical
-if (keyboard_check(ord("W"))) y_input -= 1;
-if (keyboard_check(ord("S"))) y_input += 1;
+// Define o sprite padrão para quando o personagem está parado ou para garantir um estado inicial
+current_sprite = spr_p_down; 
 
 
 
-// Calcula a próxima posição X baseada na entrada e velocidade
-var _new_x_pos = x + (x_input * velocidade);
+// Se houver qualquer input horizontal, o sprite lateral será exibido.
+if (x_input < 0) { 
+    current_sprite = spr_p_left; // Define o sprite para a esquerda
 
-// Verifica se haverá colisão na próxima posição X
-if (place_meeting(_new_x_pos, y, obj_parede)) {
- 
-    while (!place_meeting(x + sign(x_input), y, obj_parede)) {
-        x += sign(x_input);
+} else if (x_input > 0) { // Se a intenção é mover para a direita (tecla 'D' ativa e não anulada por 'A')
+    current_sprite = spr_p_right; // Define o sprite para a direita
+  
+}
+// Se NÃO houver input horizontal (x_input é 0, seja por ausência de teclas ou teclas opostas)
+else {
+    
+    if (y_input < 0) { 
+        current_sprite = spr_p_up; 
+      
+    } else if (y_input > 0) { 
+        current_sprite = spr_p_down;
+     
     }
-    // Zera a entrada para parar o movimento na colisão
+   
+}
+
+
+sprite_index = current_sprite;
+image_speed = 1; 
+
+
+//Lógica de Movimento e Colisão
+
+// MOVIMENTO HORIZONTAL (X)
+
+var target_x = x + (x_input * velocidade);
+
+// Verifica se há uma parede na posição X futura.
+
+if (place_meeting(target_x, y, obj_parede)) {
+   
+    while (!place_meeting(x + sign(x_input), y, obj_parede)) {
+        x += sign(x_input); 
+    }
     x_input = 0;
 }
-// Aplica o movimento horizontal final
+
 x += (x_input * velocidade);
 
 
-// Movimento e Colisão Vertical 
-// Calcula a próxima posição Y baseada na entrada e velocidade
-var _new_y_pos = y + (y_input * velocidade);
+// MOVIMENTO VERTICAL (Y)
 
-// Verifica se haverá colisão na próxima posição Y
-if (place_meeting(x, _new_y_pos, obj_parede)) {
+var target_y = y + (y_input * velocidade);
 
+// Verifica se há uma parede na posição Y futura.
+if (place_meeting(x, target_y, obj_parede)) {
+   
     while (!place_meeting(x, y + sign(y_input), obj_parede)) {
-        y += sign(y_input);
+        y += sign(y_input); 
     }
-    // Zera a entrada para parar o movimento na colisão
-    y_input = 0;
+    y_input = 0; 
 }
-// Aplica o movimento vertical final
+
 y += (y_input * velocidade);

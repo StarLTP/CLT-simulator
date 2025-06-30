@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":true,
   "spriteId":{
-    "name":"spr1",
-    "path":"sprites/spr1/spr1.yy",
+    "name":"spr_p_up",
+    "path":"sprites/spr_p_up/spr_p_up.yy",
   },
   "spriteMaskId":null,
   "visible":true,
