@@ -47,7 +47,7 @@ else {
         current_sprite = spr_p_up; 
       
     } else if (y_input > 0) { 
-        current_sprite = spr_p_down;
+        current_sprite = Spr_p_down_ani;
      
     }
    

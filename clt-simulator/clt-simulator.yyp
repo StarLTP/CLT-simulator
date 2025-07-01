@@ -44,6 +44,7 @@
     {"id":{"name":"cutscene","path":"rooms/cutscene/cutscene.yy",},},
     {"id":{"name":"menu","path":"rooms/menu/menu.yy",},},
     {"id":{"name":"spr_menu","path":"sprites/spr_menu/spr_menu.yy",},},
+    {"id":{"name":"Spr_p_down_ani","path":"sprites/Spr_p_down_ani/Spr_p_down_ani.yy",},},
     {"id":{"name":"spr_p_down","path":"sprites/spr_p_down/spr_p_down.yy",},},
     {"id":{"name":"spr_p_left","path":"sprites/spr_p_left/spr_p_left.yy",},},
     {"id":{"name":"spr_p_right","path":"sprites/spr_p_right/spr_p_right.yy",},},

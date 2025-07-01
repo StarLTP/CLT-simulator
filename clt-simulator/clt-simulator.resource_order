@@ -23,6 +23,7 @@
     {"name":"casa","order":2,"path":"rooms/casa/casa.yy",},
     {"name":"cutscene","order":1,"path":"rooms/cutscene/cutscene.yy",},
     {"name":"spr_menu","order":3,"path":"sprites/spr_menu/spr_menu.yy",},
+    {"name":"Spr_p_down_ani","order":7,"path":"sprites/Spr_p_down_ani/Spr_p_down_ani.yy",},
     {"name":"spr_p_down","order":6,"path":"sprites/spr_p_down/spr_p_down.yy",},
     {"name":"spr_p_left","order":4,"path":"sprites/spr_p_left/spr_p_left.yy",},
     {"name":"spr_p_right","order":5,"path":"sprites/spr_p_right/spr_p_right.yy",},
