@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":true,
   "spriteId":{
-    "name":"spr_p_down",
-    "path":"sprites/spr_p_down/spr_p_down.yy",
+    "name":"spr_p_down_idle",
+    "path":"sprites/spr_p_down_idle/spr_p_down_idle.yy",
   },
   "spriteMaskId":null,
   "visible":true,
