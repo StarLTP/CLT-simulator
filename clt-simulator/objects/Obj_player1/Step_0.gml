@@ -37,7 +37,7 @@ if (x_input < 0) {
     current_sprite = spr_p_left; // Define o sprite para a esquerda
 
 } else if (x_input > 0) { // Se a intenção é mover para a direita (tecla 'D' ativa e não anulada por 'A')
-    current_sprite = spr_p_right; // Define o sprite para a direita
+    current_sprite = spr_p_right_ani; // Define o sprite para a direita
   
 }
 // Se NÃO houver input horizontal (x_input é 0, seja por ausência de teclas ou teclas opostas)
