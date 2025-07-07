@@ -1,4 +1,4 @@
-// --- Variáveis de Input (sem mudanças) ---
+
 var x_input = 0;
 var y_input = 0;
 
@@ -66,7 +66,6 @@ else // Se não houver input de movimento (personagem parado)
     }
 }
 
-// --- Lógica de Movimento e Colisão (sem mudanças) ---
 
 // MOVIMENTO HORIZONTAL (X)
 var target_x = x + (x_input * velocidade);
