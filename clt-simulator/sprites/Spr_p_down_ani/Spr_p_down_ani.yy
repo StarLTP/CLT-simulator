@@ -1,11 +1,11 @@
 {
   "$GMSprite":"",
   "%Name":"Spr_p_down_ani",
-  "bboxMode":0,
+  "bboxMode":2,
   "bbox_bottom":30,
   "bbox_left":8,
   "bbox_right":23,
-  "bbox_top":0,
+  "bbox_top":21,
   "collisionKind":1,
   "collisionTolerance":0,
   "DynamicTexturePage":false,
