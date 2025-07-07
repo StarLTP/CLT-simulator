@@ -20,6 +20,7 @@
     {"name":"obj_house","order":1,"path":"objects/obj_house/obj_house.yy",},
     {"name":"Obj_menu","order":3,"path":"objects/Obj_menu/Obj_menu.yy",},
     {"name":"obj_parede","order":2,"path":"objects/obj_parede/obj_parede.yy",},
+    {"name":"teste","order":4,"path":"objects/teste/teste.yy",},
     {"name":"cutscene","order":1,"path":"rooms/cutscene/cutscene.yy",},
     {"name":"test_room","order":3,"path":"rooms/test_room/test_room.yy",},
     {"name":"spr_menu","order":3,"path":"sprites/spr_menu/spr_menu.yy",},
