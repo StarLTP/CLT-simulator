@@ -39,7 +39,7 @@
     {"id":{"name":"obj_house","path":"objects/obj_house/obj_house.yy",},},
     {"id":{"name":"Obj_menu","path":"objects/Obj_menu/Obj_menu.yy",},},
     {"id":{"name":"obj_parede","path":"objects/obj_parede/obj_parede.yy",},},
-    {"id":{"name":"Obj_player1","path":"objects/Obj_player1/Obj_player1.yy",},},
+    {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"cutscene","path":"rooms/cutscene/cutscene.yy",},},
     {"id":{"name":"menu","path":"rooms/menu/menu.yy",},},
     {"id":{"name":"test_room","path":"rooms/test_room/test_room.yy",},},
