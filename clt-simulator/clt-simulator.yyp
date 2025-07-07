@@ -52,6 +52,7 @@
     {"id":{"name":"spr_p_right_idle","path":"sprites/spr_p_right_idle/spr_p_right_idle.yy",},},
     {"id":{"name":"spr_p_up_ani","path":"sprites/spr_p_up_ani/spr_p_up_ani.yy",},},
     {"id":{"name":"spr_p_up_idle","path":"sprites/spr_p_up_idle/spr_p_up_idle.yy",},},
+    {"id":{"name":"spr_quarto","path":"sprites/spr_quarto/spr_quarto.yy",},},
     {"id":{"name":"spr1","path":"sprites/spr1/spr1.yy",},},
     {"id":{"name":"Sprite2","path":"sprites/Sprite2/Sprite2.yy",},},
     {"id":{"name":"Sprite3","path":"sprites/Sprite3/Sprite3.yy",},},

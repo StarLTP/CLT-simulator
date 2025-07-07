@@ -31,6 +31,7 @@
     {"name":"spr_p_right_idle","order":6,"path":"sprites/spr_p_right_idle/spr_p_right_idle.yy",},
     {"name":"spr_p_up_ani","order":11,"path":"sprites/spr_p_up_ani/spr_p_up_ani.yy",},
     {"name":"spr_p_up_idle","order":7,"path":"sprites/spr_p_up_idle/spr_p_up_idle.yy",},
+    {"name":"spr_quarto","order":12,"path":"sprites/spr_quarto/spr_quarto.yy",},
     {"name":"Sprite2","order":1,"path":"sprites/Sprite2/Sprite2.yy",},
     {"name":"Sprite3","order":2,"path":"sprites/Sprite3/Sprite3.yy",},
   ],
