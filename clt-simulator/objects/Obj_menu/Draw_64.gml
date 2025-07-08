@@ -11,7 +11,7 @@ draw_set_halign(fa_center);
 draw_set_valign(fa_center);
 
 if(index == i){
-	draw_set_color(c_lime);
+	draw_set_color(c_orange);
 }else{
 draw_set_color(c_white);
 }
