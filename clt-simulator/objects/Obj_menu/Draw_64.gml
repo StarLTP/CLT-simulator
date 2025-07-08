@@ -1,6 +1,6 @@
 draw_set_font(font_m);
 
-var dist = 55;
+var dist = 60;
 var gui_largura = display_get_gui_width();
 var gui_altura = display_get_gui_height();
 var x1 = gui_largura /2;
