@@ -1,3 +1,11 @@
+//Deve ser colocado em todo objeto que parar durante o pause
+if(global.pause){
+	image_speed = 0;
+	exit;
+}else{
+	image_speed = 1;
+}
+
 var dialog_box_exists = instance_exists(obj_textbox);
 
 if (!dialog_box_exists)
@@ -54,3 +62,7 @@ else
     image_speed = 0;
     image_index = 0;
 }
+
+//proxima sala
+if (place_meeting(x,y, obj_prox)){
+	room_goto_next();}
