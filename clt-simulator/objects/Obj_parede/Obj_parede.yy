@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":true,
   "spriteId":{
-    "name":"Sprite3",
-    "path":"sprites/Sprite3/Sprite3.yy",
+    "name":"spr_red",
+    "path":"sprites/spr_red/spr_red.yy",
   },
   "spriteMaskId":null,
   "visible":false,

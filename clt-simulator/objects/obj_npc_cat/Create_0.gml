@@ -18,6 +18,6 @@ conversation_index = 0;
 dialogue_active = false; 
 
 // Sprite do rosto específico DESTE NPC.
-my_face_sprite = spr_cat_npc; 
+my_face_sprite = spr_cat; 
 
-image_speed = 0; // Geralmente NPCs começam parados
+image_speed = 1; // Geralmente NPCs começam parados

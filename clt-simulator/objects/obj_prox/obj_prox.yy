@@ -30,9 +30,9 @@
   "resourceVersion":"2.0",
   "solid":true,
   "spriteId":{
-    "name":"spr_cat_npc",
-    "path":"sprites/spr_cat_npc/spr_cat_npc.yy",
+    "name":"spr_red",
+    "path":"sprites/spr_red/spr_red.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }
