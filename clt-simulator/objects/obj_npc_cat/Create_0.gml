@@ -1,5 +1,3 @@
-
-
 // Define a conversa específica para ESTE NPC
 // Cada elemento é uma sub-array: [tipo_do_falante, "texto_da_fala"]
 // "NPC" refere-se a ESTE NPC, "PLAYER" refere-se ao player.
@@ -20,4 +18,4 @@ dialogue_active = false;
 // Sprite do rosto específico DESTE NPC.
 my_face_sprite = spr_cat; 
 
-image_speed = 1; // Geralmente NPCs começam parados
+ // Geralmente NPCs começam parados

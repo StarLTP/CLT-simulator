@@ -1,3 +1,12 @@
+//pause
+if(global.pause){
+	image_speed = 0;
+	exit;
+}else{
+	image_speed = 1;
+}
+
+
 var player_instance = instance_nearest(x, y, obj_player);
 var interaction_distance = 64;
 
