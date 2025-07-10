@@ -35,7 +35,9 @@
   },
   "name":"clt-simulator",
   "resources":[
+    {"id":{"name":"ft_menu","path":"fonts/ft_menu/ft_menu.yy",},},
     {"id":{"name":"obj_house","path":"objects/obj_house/obj_house.yy",},},
+    {"id":{"name":"Obj_menu","path":"objects/Obj_menu/Obj_menu.yy",},},
     {"id":{"name":"obj_parede","path":"objects/obj_parede/obj_parede.yy",},},
     {"id":{"name":"Obj_player1","path":"objects/Obj_player1/Obj_player1.yy",},},
     {"id":{"name":"casa","path":"rooms/casa/casa.yy",},},
