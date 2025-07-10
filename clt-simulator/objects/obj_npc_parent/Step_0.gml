@@ -16,6 +16,9 @@ if (player_instance != noone && point_distance(x, y, player_instance.x, player_i
         if (!dialogue_active) { // Iniciar conversa
             dialogue_active = true;
             conversation_index = 0;
+			// Reproduz som de seleção
+			audio_play_sound(snd_menu_select, 1, false);
+
 
             var new_textbox_instance = instance_create_layer(0, 0, "UI_Layer", obj_textbox);
             new_textbox_instance.activated_by_instance = id;
