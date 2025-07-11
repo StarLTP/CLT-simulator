@@ -22,6 +22,7 @@
     {"name":"obj_parede","order":2,"path":"objects/obj_parede/obj_parede.yy",},
     {"name":"casa","order":2,"path":"rooms/casa/casa.yy",},
     {"name":"cutscene","order":1,"path":"rooms/cutscene/cutscene.yy",},
+    {"name":"spr_menu","order":3,"path":"sprites/spr_menu/spr_menu.yy",},
     {"name":"Sprite2","order":1,"path":"sprites/Sprite2/Sprite2.yy",},
     {"name":"Sprite3","order":2,"path":"sprites/Sprite3/Sprite3.yy",},
   ],

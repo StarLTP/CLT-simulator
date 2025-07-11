@@ -43,6 +43,7 @@
     {"id":{"name":"casa","path":"rooms/casa/casa.yy",},},
     {"id":{"name":"cutscene","path":"rooms/cutscene/cutscene.yy",},},
     {"id":{"name":"menu","path":"rooms/menu/menu.yy",},},
+    {"id":{"name":"spr_menu","path":"sprites/spr_menu/spr_menu.yy",},},
     {"id":{"name":"spr1","path":"sprites/spr1/spr1.yy",},},
     {"id":{"name":"Sprite2","path":"sprites/Sprite2/Sprite2.yy",},},
     {"id":{"name":"Sprite3","path":"sprites/Sprite3/Sprite3.yy",},},
@@ -50,8 +51,8 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"casa","path":"rooms/casa/casa.yy",},},
     {"roomId":{"name":"menu","path":"rooms/menu/menu.yy",},},
+    {"roomId":{"name":"casa","path":"rooms/casa/casa.yy",},},
     {"roomId":{"name":"cutscene","path":"rooms/cutscene/cutscene.yy",},},
   ],
   "templateType":"game",
