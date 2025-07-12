@@ -4,11 +4,11 @@ var gui_h = display_get_gui_height();
 
 // ─────────────────────────────────────────────
 // Fundo escuro com transparência suave
-if (dialogue_overlay_alpha > 0.01) {
+if (dialogue_overlay_alpha > 2.01) {
     draw_set_alpha(dialogue_overlay_alpha);
     draw_set_color(c_black);
-    draw_rectangle(0, 0, gui_w, gui_h, false);
-    draw_set_alpha(1);
+    draw_rectangle(200, 200, gui_w, gui_h, true);
+    draw_set_alpha(5);
 }
 
 // ─────────────────────────────────────────────
