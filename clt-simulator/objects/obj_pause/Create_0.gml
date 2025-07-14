@@ -2,6 +2,11 @@
 global.pause = false;
 
 //opçoes
-opcoes = ["opções","sair"];
-index = 0;
-op_max = array_length(opcoes);
+pause_opcoes = ["Salvar Jogo", "Opções", "Sair"];
+pause_op_max = array_length(pause_opcoes);
+pause_index = 0;
+
+pause_estado = "menu"; // ou "salvar"
+
+pause_salvar_index = 0;
+pause_salvar_slots = ["Slot 1", "Slot 2", "Slot 3", "Voltar"];
