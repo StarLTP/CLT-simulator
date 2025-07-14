@@ -24,7 +24,7 @@ if (current_sprite_index < array_length(cutscene_sprites)) {
     var _draw_x = (_screen_width - _drawn_width) / 2;
     var _draw_y = (_screen_height - _drawn_height) / 2;
 
-.
+
     draw_sprite_ext(
         _spr,
         0,
