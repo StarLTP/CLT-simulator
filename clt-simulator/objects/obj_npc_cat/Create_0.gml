@@ -5,9 +5,13 @@ conversation = [
     ["NPC", "Miau"],
     ["PLAYER", "Bom dia, Café!"],
     ["NPC", "Nyan"],
-    ["PLAYER", "É Café vou ter que ir trabalhar hoje!"],
-    ["NPC", "Maiu Maiu"],
-    ["PLAYER", "Até a noite Café"],
+    ["PLAYER", "É Café vou ter que encontrar um emprego"],
+    ["NPC", "Miau Miau"],
+    ["PLAYER", "O banco ta cobrando a divida vou tentar"],
+    ["PLAYER", "Conversar com o dono do banco"],
+	["PLAYER", "O senhor tostão deve ser um pouco compreensivo."],
+	["NPC", "Miau?"],
+	
 ];
 
 

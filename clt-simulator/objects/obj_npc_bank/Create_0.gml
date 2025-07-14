@@ -6,8 +6,9 @@
 conversation = [
     ["NPC", "Olá, bem-vinda ao Banco de Circolônia"],
 	["NPC", " como posso ajudá-la?"],
-    ["PLAYER", "Quero ver minha dívida"],
-    ["NPC", "Sua divida é de 99.999 circoins"]
+    ["PLAYER", "Então..."],
+	["PLAYER", "Eu to com uma divida quanto ela ta atualmente?"],
+    ["NPC", "Senhora Claudinha martins correto?"],
 ];
 
 
@@ -16,6 +17,6 @@ conversation_index = 0;
 dialogue_active = false; 
 
 // Sprite do rosto específico DESTE NPC.
-my_face_sprite = spr_bank_npc; 
+my_face_sprite = spr_bank; 
 
 image_speed = 1; // Geralmente NPCs começam parados
