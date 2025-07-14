@@ -66,3 +66,7 @@ else
 //proxima sala
 if (place_meeting(x,y, obj_prox)){
 	room_goto_next();}
+	
+	//proxima sala
+if (place_meeting(x,y, obj_back)){
+	room_goto_previous()();

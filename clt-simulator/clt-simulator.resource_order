@@ -18,6 +18,7 @@
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
   ],
   "ResourceOrderSettings":[
+    {"name":"obj_back","order":13,"path":"objects/obj_back/obj_back.yy",},
     {"name":"obj_controller","order":10,"path":"objects/obj_controller/obj_controller.yy",},
     {"name":"obj_cutscene_manual","order":11,"path":"objects/obj_cutscene_manual/obj_cutscene_manual.yy",},
     {"name":"obj_house","order":1,"path":"objects/obj_house/obj_house.yy",},

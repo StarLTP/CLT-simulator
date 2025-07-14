@@ -37,6 +37,7 @@
   "name":"clt-simulator",
   "resources":[
     {"id":{"name":"font_m","path":"fonts/font_m/font_m.yy",},},
+    {"id":{"name":"obj_back","path":"objects/obj_back/obj_back.yy",},},
     {"id":{"name":"obj_controller","path":"objects/obj_controller/obj_controller.yy",},},
     {"id":{"name":"obj_cutscene_manual","path":"objects/obj_cutscene_manual/obj_cutscene_manual.yy",},},
     {"id":{"name":"obj_house","path":"objects/obj_house/obj_house.yy",},},
