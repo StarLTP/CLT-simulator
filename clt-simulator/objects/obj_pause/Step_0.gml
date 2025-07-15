@@ -38,8 +38,6 @@ if (global.pause) {
                 ini_open("save" + string(slot) + ".ini");
 
                 ini_write_real("jogo", "fase", room); // Exemplo
-                ini_write_real("jogo", "vida", vida); // Coloque suas variáveis
-                ini_write_real("jogo", "moedas", moedas); // Exemplo
 
                 ini_close();
                 show_message("Jogo salvo no Slot " + string(slot));

@@ -1,4 +1,5 @@
 activated_by_instance = noone;
 current_speaker_instance = noone;
 speaker_face_sprite = noone;
-dialogue_overlay_alpha = 0;
+dialogue_overlay_alpha = 1;
+target_alpha = 1;
