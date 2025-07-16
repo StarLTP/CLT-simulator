@@ -8,3 +8,5 @@ image_xscale = 1;
 image_yscale = 1;
 
 player_face_sprite = spr_p_rosto; // Sprite de rosto do jogador
+
+banana=0

@@ -70,3 +70,9 @@ if (place_meeting(x,y, obj_prox)){
 	//proxima sala
 if (place_meeting(x,y, obj_back)){
 	room_goto_previous();}
+	
+	//minigame da banana
+	if banana=3
+{
+	room_goto_next()
+}
