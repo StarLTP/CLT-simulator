@@ -1,0 +1,1 @@
+valor_divida_reduzida = 10;

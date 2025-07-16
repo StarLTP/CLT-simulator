@@ -1,14 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"obj_player",
+  "%Name":"obj_LixoNormal",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_LixoNormal","path":"objects/obj_LixoNormal/obj_LixoNormal.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_LixoBanana","path":"objects/obj_LixoBanana/obj_LixoBanana.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_player",
+  "name":"obj_LixoNormal",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -33,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":true,
   "spriteId":{
-    "name":"spr_p_down_idle",
-    "path":"sprites/spr_p_down_idle/spr_p_down_idle.yy",
+    "name":"spr_lixo",
+    "path":"sprites/spr_lixo/spr_lixo.yy",
   },
   "spriteMaskId":null,
   "visible":true,

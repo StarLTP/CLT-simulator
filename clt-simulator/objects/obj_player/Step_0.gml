@@ -1,15 +1,11 @@
-//Deve ser colocado em todo objeto que parar durante o pause
-if(global.pause){
+if (global.pause) {
 	image_speed = 0;
 	exit;
-}else{
-	image_speed = 1;
 }
 
 var dialog_box_exists = instance_exists(obj_textbox);
 
-if (!dialog_box_exists)
-{
+if (!dialog_box_exists) {
     var x_input = 0;
     var y_input = 0;
 
@@ -18,16 +14,13 @@ if (!dialog_box_exists)
     if (keyboard_check(ord("W"))) { y_input -= 1; }
     if (keyboard_check(ord("S"))) { y_input += 1; }
 
-    if (x_input != 0 || y_input != 0)
-    {
+    if (x_input != 0 || y_input != 0) {
         image_speed = 1;
         if (x_input < 0) { sprite_index = spr_p_left_ani; last_direction = "left"; }
         else if (x_input > 0) { sprite_index = spr_p_right_ani; last_direction = "right"; }
         else if (y_input < 0) { sprite_index = spr_p_up_ani; last_direction = "up"; }
         else if (y_input > 0) { sprite_index = Spr_p_down_ani; last_direction = "down"; }
-    }
-    else
-    {
+    } else {
         image_speed = 0;
         image_index = 0;
         switch (last_direction) {
@@ -57,22 +50,21 @@ if (!dialog_box_exists)
         y += move_v;
     }
 }
-else
-{
+else {
     image_speed = 0;
     image_index = 0;
+    switch (last_direction) {
+        case "left": sprite_index = spr_p_left_idle; break;
+        case "right": sprite_index = spr_p_right_idle; break;
+        case "up": sprite_index = spr_p_up_idle; break;
+        case "down": sprite_index = Spr_p_down_ani; break;
+        default: sprite_index = Spr_p_down_ani; break;
+    }
 }
 
-//proxima sala
 if (place_meeting(x,y, obj_prox)){
-	room_goto_next();}
-	
-	//proxima sala
+	room_goto_next();
+}
 if (place_meeting(x,y, obj_back)){
-	room_goto_previous();}
-	
-	//minigame da banana
-	if banana=3
-{
-	room_goto_next()
+	room_goto_previous();
 }
