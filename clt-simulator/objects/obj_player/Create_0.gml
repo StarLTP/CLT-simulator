@@ -1,3 +1,4 @@
+event_inherited();
 velocidade =1;
 last_direction = "down";
 

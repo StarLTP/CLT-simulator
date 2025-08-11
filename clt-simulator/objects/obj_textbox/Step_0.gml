@@ -1,3 +1,4 @@
+event_inherited();
 if (activated_by_instance != noone && activated_by_instance.dialogue_active) {
     target_alpha = 0.8;
 } else {
