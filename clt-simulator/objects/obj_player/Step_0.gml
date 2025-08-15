@@ -68,3 +68,10 @@ if (place_meeting(x,y, obj_prox)){
 if (place_meeting(x,y, obj_back)){
 	room_goto_previous();
 }
+
+//NPC QUEST
+// Verifica se o jogador já coletou todos os objetos corretos
+if (global.collected >= total_needed_objects) {
+    room_goto_next(); // Vai pra próxima sala automaticamente
+}
+
