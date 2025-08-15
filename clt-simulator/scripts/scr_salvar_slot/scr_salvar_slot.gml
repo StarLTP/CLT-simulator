@@ -7,7 +7,7 @@ var nome_arquivo = "save" + string(slot) + ".ini";
 
 // Exemplo de dados salvos. Substitua por suas variáveis reais.
 ini_open(nome_arquivo);
-ini_write_real("jogo", "fase", room); // Substituir "room" se necessário
+ini_write_real("jogo", "fase", room = real); // Substituir "room" se necessário
 // Adicione mais dados aqui se quiser salvar outras coisas
 ini_close();
 

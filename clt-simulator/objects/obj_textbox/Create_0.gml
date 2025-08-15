@@ -3,3 +3,7 @@ current_speaker_instance = noone;
 speaker_face_sprite = noone;
 dialogue_overlay_alpha = 1;
 target_alpha = 1;
+
+
+
+

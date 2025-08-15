@@ -72,4 +72,3 @@ if (activator_instance != noone && speaker_instance != noone && activator_instan
     draw_text_ext(text_x, text_y, current_line_text, -1, text_width_for_wrap);
 }
 
-
